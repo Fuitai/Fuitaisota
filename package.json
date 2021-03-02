@@ -1,0 +1,33 @@
+{
+  "name": "eris-bot",
+  "version": "1.0.0",
+  "description": "A Discord Bot made with the Discord Eris NodeJS Library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Eris"
+  ],
+  "author": "izac999",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "axios": "^0.21.1",
+    "beautify": "0.0.8",
+    "booru": "^2.4.0",
+    "common-tags": "^1.8.0",
+    "cpu-stat": "^2.0.1",
+    "eris": "github:abalabahaha/eris#dev",
+    "eris-additions": "^1.4.1",
+    "eris-reactions": "^0.1.4",
+    "helperis": "^1.2.4",
+    "moment": "^2.28.0",
+    "moment-duration-format": "^2.3.2",
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.11.16",
+    "node-fetch": "^2.6.1",
+    "parse-ms": "^2.1.0",
+    "utils": "^0.3.1"
+  }
+}

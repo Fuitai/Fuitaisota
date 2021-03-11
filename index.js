@@ -5,7 +5,7 @@ const { TOKEN } = require("./config.json");
 var bot = new Eris(TOKEN);
 
 const mongoose = require("mongoose");
-mongoose.connect('aaaaa', { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: true });
+mongoose.connect('a', { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: true });
 
 bot.events = new Eris.Collection();
 bot.commands = new Eris.Collection();
